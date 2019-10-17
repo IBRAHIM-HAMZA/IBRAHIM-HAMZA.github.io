@@ -1,0 +1,191 @@
+body {
+  margin: 0;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+  background-color: #353b48;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.secondary-block {
+  color: #fff;
+  background-color: #353b48;
+}
+
+nav {
+  display: flex;
+  height: 70px;
+  position: sticky;
+  top: 0;
+  box-shadow: -11px -11px 14px #000;
+  z-index: 1;
+}
+
+nav h2 {
+  /* padding-bottom: 70px; */
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
+  /* padding: 10px; */
+  margin: -6px 20px;
+}
+
+/* Add Style In Name Of Nave */
+nav span {
+  color: #ffffff;
+  background-color: #fbc531;
+  height: 70px;
+  font-family: 'Niconne', cursive;
+  border-radius: 100%;
+  padding: 0 12px 0;
+  margin-right: 5px;
+}
+
+nav ul {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  padding: 19px;
+}
+
+nav li {
+  margin-left: 15px;
+}
+nav li {
+  height: 100%;
+  width: 100px;
+  text-align: center;
+  /* background-color: dodgerblue; */
+  border: solid 1px #fbc531;
+  border-radius: 5px;
+}
+
+/* Add Havor */
+nav li:hover {
+  /* border-bottom: 2px solid #e2a600; */
+  background-color: #c48f00;
+
+  transition: all 0.2s ease;
+}
+
+header {
+  text-align: center;
+  padding: 40px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+header h1 {
+  font-size: 64px;
+  background: linear-gradient(to right, #fbc531, #9b750b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header h2 {
+  color: #fbc531;
+  border-left: 5px solid #fbc531;
+  width: 200px;
+  text-align: center;
+  margin: 50px auto;
+}
+
+header img {
+  opacity: 0.5;
+  width: 150px;
+  /* border-radius: 75px; */
+  border: 10px solid #ffffff;
+  box-shadow: -1px -1px 8px #333;
+  border-radius: 20px;
+  transition: transform 0.2s;
+}
+
+header img:hover {
+  opacity: 100;
+  transform: scale(1.1);
+}
+
+section {
+  padding: 40px;
+  background-color: #333945;
+}
+
+section h3 {
+  color: #fbc531;
+  border-left: 5px solid #fbc531;
+  /* border-radius: 75px; */
+  padding: 10px;
+}
+
+#xp ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#xp li {
+  margin-bottom: 10px;
+}
+
+#xp aside {
+  float: right;
+}
+
+#education ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#education li {
+  margin-bottom: 10px;
+}
+
+#education aside {
+  float: right;
+}
+
+footer {
+  padding: 40px;
+}
+
+footer h3 {
+  color: #fbc531;
+  border-left: 5px solid #fbc531;
+  padding: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links ul li {
+  display: inline;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+.links li i {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.links li i:hover {
+  /* border-bottom: 2px solid #fbc531; */
+  font-size: 40px;
+  color: #fbc531;
+  transform: scale(1);
+  transition: all 0.4s ease;
+}
+
+/* IBRAHIM HAMZA MAIL ==> mr.xe.man@mail.ru */
